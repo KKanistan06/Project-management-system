@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import kanistanImg from "../images/kanistan.png";
 
 function About() {
   return (
@@ -47,6 +48,21 @@ function About() {
             For any questions or technical support, please contact our support
             team at support@pims.edu.
           </p>
+        </div>
+
+        <div className="about-section">
+          <h3 className="about-section-title">About me</h3>
+          <div className="team-members">
+            <div className="team-member">
+              <img
+                src={kanistanImg}
+                alt="KANISTAN"
+                className="team-member-image"
+              />
+              <div className="team-member-name">KANESALINGAM KANISTAN</div>
+              <div className="team-member-role">COMPUTER ENGINEER (R)</div>
+            </div>
+          </div>
         </div>
 
         <div className="about-section">
